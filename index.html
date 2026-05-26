@@ -41,24 +41,11 @@
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 
   <!-- Main CSS -->
-  <script type="module" crossorigin src="./assets/index-7iss6DZZ.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-px0DduVP.css">
+  <script type="module" crossorigin src="./assets/index-CrVgORs8.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-JxSedrgv.css">
 </head>
 
 <body>
-
-  <!-- =============================================
-    LOADING SCREEN
-    ============================================= -->
-  <div id="loading-screen" role="status" aria-label="Memuat halaman">
-    <div class="loading-content">
-      <div class="loading-logo">Lima<span>Cahaya</span></div>
-      <div class="loading-bar">
-        <div class="loading-bar-fill"></div>
-      </div>
-      <p style="color:rgba(255,255,255,0.4); font-size:0.75rem; letter-spacing:0.1em;">MEMUAT...</p>
-    </div>
-  </div>
 
   <!-- =============================================
     STICKY NAVBAR
@@ -85,7 +72,7 @@
         <!-- CTA Button + Hamburger -->
         <div style="display:flex; align-items:center; gap:1rem;">
           <a href="https://wa.me/6285803103967?text=Halo%20Lima%20Cahaya%2C%20saya%20ingin%20konsultasi"
-            class="btn-cta-nav ripple-btn" target="_blank" rel="noopener noreferrer" id="cta-nav-btn"
+            class="btn-cta-nav ripple-btn hide-on-mobile" target="_blank" rel="noopener noreferrer" id="cta-nav-btn"
             aria-label="Konsultasi via WhatsApp">
             <i data-lucide="message-circle" style="width:16px;height:16px;"></i>
             Konsultasi
@@ -177,15 +164,15 @@
 
             <!-- Floating Card 1 — Jasa Arsitek -->
             <div class="floating-card-1">
-              <div class="glass-card">
+              <div class="glass-card" style="background: white;">
                 <div style="display:flex; align-items:center; gap:0.75rem;">
                   <div
                     style="width:36px; height:36px; background:linear-gradient(135deg,#10B981,#059669); border-radius:0.5rem; display:flex; align-items:center; justify-content:center;">
                     <i data-lucide="shield-check" style="width:18px;height:18px;color:white;"></i>
                   </div>
                   <div>
-                    <div style="font-size:1.125rem; font-weight:800; color:white; line-height:1;">Jasa Arsitek</div>
-                    <div style="font-size:0.8rem; color:rgba(255,255,255,0.8); margin-top:4px;">Amanah</div>
+                    <div style="font-size:1.125rem; font-weight:800; color:var(--color-secondary-dark); line-height:1;">Jasa Arsitek</div>
+                    <div style="font-size:0.8rem; color:#6b7280; margin-top:4px;">Amanah</div>
                   </div>
                 </div>
               </div>
@@ -268,7 +255,7 @@
 
         <!-- Right — Project Images Grid -->
         <div>
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.25rem;">
+          <div class="tentang-images-grid">
             <div style="border-radius:1.25rem; overflow:hidden; height:240px; position:relative;" data-aos="fade-up"
               data-aos-delay="100">
               <img src="./images/tentang-1.jpeg" alt="Project Terbaru 1"
