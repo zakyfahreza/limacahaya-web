@@ -63,6 +63,7 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 body {
@@ -104,6 +105,10 @@ body {
 @media (max-width: 768px) {
   .section-padding {
     padding: 3.5rem 0;
+  }
+  
+  .hide-on-mobile {
+    display: none !important;
   }
 }
 
@@ -706,6 +711,18 @@ body {
   background: linear-gradient(135deg, var(--color-emerald), var(--color-secondary));
   color: white;
   transform: rotate(5deg) scale(1.05);
+}
+
+.tentang-images-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .tentang-images-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .stat-card {
