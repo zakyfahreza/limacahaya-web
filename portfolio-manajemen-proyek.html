@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Lima Cahaya — Arsitek & Konstruksi Premium Indonesia</title>
+  <meta name="description"
+    content="Lima Cahaya adalah perusahaan konstruksi dan desain interior premium di Indonesia. Kami mewujudkan impian arsitektur Anda dengan sentuhan modern, elegan, dan profesional." />
+  <meta name="keywords"
+    content="arsitek, konstruksi, interior design, renovasi, desain residensial, desain komersial, Jakarta, Indonesia, Lima Cahaya" />
+  <meta name="author" content="Lima Cahaya" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Lima Cahaya — Arsitek & Konstruksi Premium Indonesia" />
+  <meta property="og:description"
+    content="Wujudkan impian arsitektur Anda bersama Lima Cahaya. 500+ proyek selesai, 98% kepuasan klien." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./images/hero-architecture.jpg" />
+  <meta property="og:locale" content="id_ID" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://limacahaya.id/" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+<nav id="navbar" role="navigation" aria-label="Navigasi utama">
+    <div class="container">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:2rem;">
+
+        <!-- Logo -->
+        <a href="index.html#hero" class="nav-logo" aria-label="Lima Cahaya - Beranda"
+          style="display:flex; align-items:center; gap:0.5rem;">
+          <img src="./logo-limacahaya-v2.png" alt="Logo Lima Cahaya" class="h-12 md:h-[72px] w-auto object-contain" />
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="desktop-menu" style="display:flex; align-items:center; gap:2rem;">
+          <a href="index.html#tentang" class="nav-link" data-section="tentang">Tentang</a>
+          <a href="index.html#layanan" class="nav-link" data-section="layanan">Layanan</a>
+          <a href="index.html#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+          <a href="index.html#testimoni" class="nav-link" data-section="testimoni">Testimoni</a>
+          <a href="index.html#kontak" class="nav-link" data-section="kontak">Kontak</a>
+        </div>
+
+        <!-- CTA Button + Hamburger -->
+        <div style="display:flex; align-items:center; gap:1rem;">
+          <a href="https://wa.me/6285655500806?text=Halo%20Lima%20Cahaya%2C%20saya%20ingin%20konsultasi"
+            class="btn-cta-nav ripple-btn hide-on-mobile" target="_blank" rel="noopener noreferrer" id="cta-nav-btn-page"
+            aria-label="Konsultasi via WhatsApp">
+            <i data-lucide="message-circle" style="width:16px;height:16px;"></i>
+            Konsultasi
+          </a>
+
+          <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false"
+            aria-controls="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu mobile">
+    <a href="index.html#tentang" class="mobile-nav-link" data-mobile-link>Tentang</a>
+    <a href="index.html#layanan" class="mobile-nav-link" data-mobile-link>Layanan</a>
+    <a href="index.html#portfolio" class="mobile-nav-link" data-mobile-link>Portfolio</a>
+    <a href="index.html#testimoni" class="mobile-nav-link" data-mobile-link>Testimoni</a>
+    <a href="index.html#kontak" class="mobile-nav-link" data-mobile-link>Kontak</a>
+    <a href="https://wa.me/6285655500806?text=Halo%20Lima%20Cahaya%2C%20saya%20ingin%20konsultasi" class="btn-primary"
+      style="margin-top:1rem;" target="_blank" rel="noopener noreferrer">
+      <i data-lucide="message-circle" style="width:18px;height:18px;"></i>
+      Konsultasi Sekarang
+    </a>
+  </div>
+
+
+  <section class="section-padding" style="padding-top:8rem; min-height:60vh;">
+    <div class="container">
+      <div style="margin-bottom:3rem;">
+        <a href="index.html#portfolio" style="color:var(--color-emerald);text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;margin-bottom:1rem;">
+          <i data-lucide="arrow-left" style="width:18px;height:18px;"></i> Kembali ke Portfolio
+        </a>
+        <h1 class="section-title">Portfolio: <span class="gradient-text">Manajemen Proyek</span></h1>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:2rem;">
+        <div style="border-radius:1.25rem;overflow:hidden;">
+          <img src="./images/manajemen-proyek.jpeg" alt="Manajemen Proyek 1" style="width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;" />
+        </div>
+        <div style="border-radius:1.25rem;overflow:hidden;">
+          <img src="./images/tentang-1.jpeg" alt="Manajemen Proyek 2" style="width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;" />
+        </div>
+        <div style="border-radius:1.25rem;overflow:hidden;">
+          <img src="./images/hero.jpeg" alt="Manajemen Proyek 3" style="width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer" role="contentinfo" aria-label="Footer Lima Cahaya">
+    <div class="container" style="padding-top:3.5rem; padding-bottom:3.5rem;">
+      <div style="display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:3rem; margin-bottom:3rem;">
+
+        <!-- Brand Column -->
+        <div>
+          <a href="#hero" class="nav-logo" style="display:inline-block; margin-bottom:1rem; font-size:1.5rem;">
+            Lima<span>Cahaya</span>
+          </a>
+          <p
+            style="font-size:0.875rem; color:rgba(255,255,255,0.5); line-height:1.8; max-width:280px; margin-bottom:1.5rem;">
+            Perusahaan arsitek dan konstruksi premium Indonesia. Membangun impian dengan standar kualitas tertinggi.
+          </p>
+          <div style="display:flex; gap:0.625rem;">
+            <a href="https://www.facebook.com/share/14fVSPQbTeR/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="footer-social"
+              aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="currentColor">
+                <path
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+              </svg>
+            </a>
+            <a href="https://www.tiktok.com/@limacahayaofficial" target="_blank" rel="noopener noreferrer" class="footer-social"
+              aria-label="TikTok">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 448 512" fill="currentColor">
+                <path
+                  d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/limacahayaofficial/?hl=id" target="_blank" rel="noopener noreferrer" class="footer-social"
+              aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 448 512" fill="currentColor">
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+              </svg>
+            </a>
+            <!-- Removed YouTube Icon -->
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4
+            style="font-size:0.875rem; font-weight:700; color:white; margin-bottom:1.25rem; letter-spacing:0.05em; text-transform:uppercase;">
+            Navigasi</h4>
+          <div style="display:flex; flex-direction:column; gap:0.75rem;">
+            <a href="#tentang" class="footer-link">Tentang Kami</a>
+            <a href="#layanan" class="footer-link">Layanan</a>
+            <a href="#portfolio" class="footer-link">Portfolio</a>
+            <a href="#keunggulan" class="footer-link">Keunggulan</a>
+            <a href="#testimoni" class="footer-link">Testimoni</a>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4
+            style="font-size:0.875rem; font-weight:700; color:white; margin-bottom:1.25rem; letter-spacing:0.05em; text-transform:uppercase;">
+            Layanan</h4>
+          <div style="display:flex; flex-direction:column; gap:0.75rem;">
+            <a href="#layanan" class="footer-link">Desain Residensial</a>
+            <a href="#layanan" class="footer-link">Desain Komersial</a>
+            <a href="#layanan" class="footer-link">Renovasi</a>
+            <a href="#layanan" class="footer-link">Konsultasi Teknis</a>
+            <a href="#layanan" class="footer-link">Interior Design</a>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4
+            style="font-size:0.875rem; font-weight:700; color:white; margin-bottom:1.25rem; letter-spacing:0.05em; text-transform:uppercase;">
+            Kontak</h4>
+          <div style="display:flex; flex-direction:column; gap:0.875rem;">
+            <div style="display:flex; gap:0.625rem; align-items:flex-start;">
+              <i data-lucide="map-pin"
+                style="width:14px;height:14px;color:var(--color-emerald-light);margin-top:2px;flex-shrink:0;"></i>
+              <span style="font-size:0.8125rem; color:rgba(255,255,255,0.5); line-height:1.6;">Dregan RT.03 RW.06 Desa
+                Pabelan, Kartasura, Sukoharjo</span>
+            </div>
+            <div style="display:flex; gap:0.625rem; align-items:flex-start;">
+              <i data-lucide="phone"
+                style="width:14px;height:14px;color:var(--color-emerald-light);margin-top:2px;flex-shrink:0;"></i>
+              <div style="display:flex; flex-direction:column; gap:0.25rem;">
+                <a href="tel:+6285655500806"
+                  style="font-size:0.8125rem; color:rgba(255,255,255,0.5); text-decoration:none;">+62 856-5550-0806 (Delta Admin Lima Cahaya)</a>
+              </div>
+            </div>
+            <div style="display:flex; gap:0.625rem; align-items:center;">
+              <i data-lucide="mail" style="width:14px;height:14px;color:var(--color-emerald-light);flex-shrink:0;"></i>
+              <a href="mailto:limacahayaid@gmail.com"
+                style="font-size:0.8125rem; color:rgba(255,255,255,0.5); text-decoration:none;">limacahayaid@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div
+        style="padding-top:2rem; border-top:1px solid rgba(255,255,255,0.06); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+        <p style="font-size:0.8125rem; color:rgba(255,255,255,0.35);">
+          &copy; <span id="copyright-year"></span> Lima Cahaya. Hak cipta dilindungi undang-undang.
+        </p>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="#"
+            style="font-size:0.8125rem; color:rgba(255,255,255,0.35); text-decoration:none; transition:color 0.2s;"
+            onmouseover="this.style.color='rgba(255,255,255,0.7)'"
+            onmouseout="this.style.color='rgba(255,255,255,0.35)'">Kebijakan Privasi</a>
+          <a href="#"
+            style="font-size:0.8125rem; color:rgba(255,255,255,0.35); text-decoration:none; transition:color 0.2s;"
+            onmouseover="this.style.color='rgba(255,255,255,0.7)'"
+            onmouseout="this.style.color='rgba(255,255,255,0.35)'">Syarat & Ketentuan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Main JS Module -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
